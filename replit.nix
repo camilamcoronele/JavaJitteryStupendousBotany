@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+      pkgs.imagemagick6
         pkgs.graalvm17-ce
         pkgs.maven
         pkgs.replitPackages.jdt-language-server
